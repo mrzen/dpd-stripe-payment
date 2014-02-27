@@ -1,0 +1,29 @@
+{
+  "name": "dpd-stripe-payments",
+  "description": "Stripe Payment Processing for Deployd",
+  "version": "0.0.1",
+  "author": {
+    "name": "David Havard",
+    "email": "david.havard@mrzen.com"
+  },
+  "dependencies": {
+    "stripe": "~2.4.2",
+    "debug": "~0.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrzen/dpd-stripe-payments.git"
+  },
+  "engines": {
+    "node": "~0.8"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrzen/dpd-stripe-payments/issues"
+  },
+  "homepage": "https://github.com/mrzen/dpd-stripe-payments",
+  "main": "index.js",
+  "readmeFilename": "README.md",
+  "_id": "dpd-stripe@0.0.1",
+  "_from": "dpd-stripe@"
+}
