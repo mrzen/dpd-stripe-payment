@@ -48,6 +48,7 @@ StripePayment.prototype.handle = function (ctx, next) {
 
   var options = ctx.body || {};
   options.secret_key = options.secret_key || this.config.secret_key;
+  options.metadata = options.metadata || {}
 
   var stripe = require("stripe")(
     options.secret_key
@@ -58,7 +59,8 @@ StripePayment.prototype.handle = function (ctx, next) {
     amount: options.amount,
     currency: options.currency,
     card: options.token,
-    description: options.description
+    description: options.description,
+    metadata: options.metadata
   };
 
   // Make the charge:
