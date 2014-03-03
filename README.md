@@ -7,4 +7,3 @@ TODO:
 - Subscription support
 - Refund support
 - Save customer support
-- 
