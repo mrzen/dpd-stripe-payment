@@ -24,6 +24,11 @@ StripePayment.prototype.clientGeneration = true;
 StripePayment.basicDashboard = {
     settings: [
         {
+            name: 'publishable_key',
+            type: 'text',
+            description: 'Your Stripe Publishable Key.'
+        },
+        {
             name: 'secret_key',
             type: 'text',
             description: 'Your Stripe Secret Key (or pass this directly in the post call).'
